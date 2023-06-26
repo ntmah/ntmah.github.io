@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="./hinhanh/logosanpham.jpg" type="image/x-icon">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <!-- <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 style="font-family: fangsong" class="form-title">Đăng Ký</h2>
+                        <form method="POST" class="register-form" action='dangky.php' id="register-form">
+                            <div class="form-group">
+                                <label for="fhvt"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input style="font-family: fangsong" type="text"  placeholder="Nhập Họ và Tên" name="hvt"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="tk"><i class="zmdi zmdi-phone"></i></label>
+                                <input style="font-family: fangsong" type="tel" placeholder="Nhập Số Điện Thoại" name="tk"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="fns"><i class="zmdi zmdi-calendar"></i></label>
+                                <input style="font-family: fangsong" type="date"  placeholder="Nhập Ngày Sinh" name="ns"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd"><i class="zmdi zmdi-lock"></i></label>
+                                <input style="font-family: fangsong" type="password"  placeholder="Nhập Mật Khẩu" name="pwd"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="rpwd"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input style="font-family: fangsong" type="password"  placeholder="Nhập Lại Mật Khẩu" name="rpwd"/>
+                            </div>
+                            <!-- <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div> -->
+                            <div class="form-group" style="display: none;">
+                                <label for="fmssv">mssv:</label>
+                                <input style="font-family: fangsong" type="text" class="form-control" id="fdoam" name="doam" value="0">
+                                <input style="font-family: fangsong" type="text" class="form-control" id="fnhietdo" name="nhietdo" value="0">
+                                <input style="font-family: fangsong" type="text" class="form-control" id="fden" name="den" value="0">
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit"   class="form-submit" value="Đăng Ký"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="#" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+
+
+ 
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
